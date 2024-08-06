@@ -1,8 +1,10 @@
+HTML and CSS intro Notes
+
 Html: 
  it is simple and gives resilience and robustness If something goes wrong it will try and guess and fix it.
 •	No programming logic, loops or functions
 •	It is a declarative language. 
-	
+•	
 CSS:   
 it is fragile yet powerful. when the browser encounters a bug, I will skip that part and move on to the rest of the code. Browsers does its best to make it work.
 
@@ -29,4 +31,9 @@ Quotes Element:
 We can also use <q> to  make the browser recognise a quote 
 HTML Date and Time Inputs
 
-Date time : <time datetime=””2024-08-05” > </time> ---- this makes the computer easy  to understand the format of date and the date itself 
+Date time : <time datetime=””2024-08-05” > </time> ---- this makes it easy for the computer  to understand the format of date and the date itself 
+
+
+
+
+ 
