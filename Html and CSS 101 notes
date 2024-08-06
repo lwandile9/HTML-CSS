@@ -1,0 +1,32 @@
+Html: 
+ it is simple and gives resilience and robustness If something goes wrong it will try and guess and fix it.
+•	No programming logic, loops or functions
+•	It is a declarative language. 
+	
+CSS:   
+it is fragile yet powerful. when the browser encounters a bug, I will skip that part and move on to the rest of the code. Browsers does its best to make it work.
+
+JavaScript: JavaScript is delicate if something goes wrong it like , bug in a code , outdated browser and does not understand the code, it will stop working not even trying to figure out the code or what to do
+
+To make the web accessible regardless of the computer type and or viewer used, created using  3 languages , CSS , HTML , and JavaScript …. By combining these languages, developers can achieve resilience, robustness, and power of their website.
+
+
+HTML basics- html consist of tree like elements called Dom and the browser use this better understand the structure of the web page.   Example: 
+
+ <article >------     parent 
+Nested element 
+<p>This is a paragraph inside an article</p> ……. Child 
+  </article>
+Html elements
+I – we use italics to emphasize a text or  if we want to distinguish a certain text visually or by browser from other text.
+b- to simple make the text bold (generic element)
+i and b , do not carry any specific meaning and are used solely for visual styling.
+All oThe above elements are all inline elements only taking up the necessary space 
+em- to emphasize the text.
+Strong- used to show importance, seriousness, or urgency.
+Quotes Element:  
+<cite> and <blockquote> they inform computers and screen readers  about the quote and they make it easy to style them differently
+We can also use <q> to  make the browser recognise a quote 
+HTML Date and Time Inputs
+
+Date time : <time datetime=””2024-08-05” > </time> ---- this makes the computer easy  to understand the format of date and the date itself 
