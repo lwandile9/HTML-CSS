@@ -8,12 +8,12 @@ Html:
 CSS:   
 it is fragile yet powerful. when the browser encounters a bug, I will skip that part and move on to the rest of the code. Browsers does its best to make it work.
 
-JavaScript: JavaScript is delicate if something goes wrong it like , bug in a code , outdated browser and does not understand the code, it will stop working not even trying to figure out the code or what to do
+JavaScript: JavaScript is delicate if something goes wrong it like, bug in a code, outdated browser and does not understand the code, it will stop working not even trying to figure out the code or what to do
 
-To make the web accessible regardless of the computer type and or viewer used, created using  3 languages , CSS , HTML , and JavaScript …. By combining these languages, developers can achieve resilience, robustness, and power of their website.
+To make the web accessible regardless of the computer type and or viewer used, created using  3 languages, CSS , HTML, and JavaScript …. By combining these languages, developers can achieve resilience, robustness, and power of their website.
 
 
-HTML basics- html consist of tree like elements called Dom and the browser use this better understand the structure of the web page.   Example: 
+HTML basics- html consists of tree-like elements called Dom and the browser uses this to better understand the structure of the web page.   Example: 
 
  <article >------     parent 
 Nested element 
@@ -22,18 +22,49 @@ Nested element
 Html elements
 I – we use italics to emphasize a text or  if we want to distinguish a certain text visually or by browser from other text.
 b- to simple make the text bold (generic element)
-i and b , do not carry any specific meaning and are used solely for visual styling.
-All oThe above elements are all inline elements only taking up the necessary space 
+i and b, do not carry any specific meaning and are used solely for visual styling.
+All oThe above elements are all inline elements only taking up the necessary space. 
 em- to emphasize the text.
 Strong- used to show importance, seriousness, or urgency.
 Quotes Element:  
-<cite> and <blockquote> they inform computers and screen readers  about the quote and they make it easy to style them differently
-We can also use <q> to  make the browser recognise a quote 
+<cite> and <blockquote> they inform computers and screen readers about the quote, and they make it easy to style them differently.
+We can also use <q> to make the browser recognize a quote 
 HTML Date and Time Inputs
+HTML has a  <time> element. This element is used to mark anything that specifies a time of day, a date, or a duration.
+Date Time: <time datetime=””2024-08-05” > </time> ---- This makes it easy for the computer  to understand the format of date and the date itself.
 
-Date time : <time datetime=””2024-08-05” > </time> ---- this makes it easy for the computer  to understand the format of date and the date itself 
+HTML <pre> an <br>
+
+<br>- this is a line break in html , when a browsers see this it will go to a new line
+<pre> this is used to tell the browser to preserve formatting
+<code> is used to output the code on the browser with out any miss use 
+HTML entity- this a are special chars combination that will represent a  a letter or  symbol that cannot be written normally in html 
+
+Html Subscript, SmallText, Superscript;
+
+To represent a formula in html or any advanced formatted text we used text formatting elements like small.
+Super- is used to raise the char up 
+Sub – is used to lower  the char down
+And small- is use to  make char smaller
+
+HTML Attributes: html are add additional functionalities and improves elements' capabilities 
+Most used attributes are : ID and Classes  and the class is the most commonly used  because it always elements to  have the same class name . but ID are meant to be unique identifier.
+
+HTML offers many attributes that enhance user interaction and provide hooks into browser power. These attributes, such as "content editable," allow interaction with the screen, keyboard, and assistive devices. They facilitate the editing capability within the browser.
+There are numerous attributes like this, which provide browser APIs to JavaScript. To explore more, you can check out other courses. Additionally, the "lang" attribute allows us to specify the language of the content using a short language code. We will delve deeper into supporting languages on the web and finding these codes in chapter seven: Content Identification. The "dir" attribute explicitly indicates the direction in which the text flows, using "LTR" for left-to-right scripts and "RTL" for right-to-left scripts. These attributes, "lang" and "dir," are considered Global Attributes and can be used on any HTML element.
 
 
+ARIA Roles:  These are the attributes that help screen reader to better understand the   content of the web page and also help disabled  people to be able to access  the web with ease. ARIA is a powerful tool that greatly enhances web accessibility ARIA Roles provide the necessary tools to make sites accessible to everyone.
 
+
+Formatting HTML: 
+
+HTML Navigation and linking
+-	Links helps us to navigate the web, internally or externally. 
+-	To create a link you use anchor tags <a></a> and insert attributes such as  href – where the link will if it is clicked and insert the a tags you place a  text that you want the users to see. 
+-	By default, the A element is inline and can be placed within a paragraph or any other text. 
+Types of linking are 
+absolute URL -  this is a full url linking to a specific page or content including http
+and relative URL – which is a url that is used to link to internal files within your website or sever.  i
 
  
