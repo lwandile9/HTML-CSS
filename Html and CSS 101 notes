@@ -65,6 +65,33 @@ HTML Navigation and linking
 -	By default, the A element is inline and can be placed within a paragraph or any other text. 
 Types of linking are 
 absolute URL -  this is a full url linking to a specific page or content including http
-and relative URL – which is a url that is used to link to internal files within your website or sever.  i
+and relative URL – which is a url that is used to link to internal files within your website or sever.  
+
+
+
+
+Working with Images
+To include the image in your website you use the image tag  <image>  and this tag is a self-closing tag . All images tag require some attributes to work properly                                               
+src: this is the path to the image to be displayed.
+Alt: this is the text that will be displayed if the image is not found. It also help screen reader. If we omit this  attributes  file name will be read aloud.
+Width: to set the widens of the image, this can be done using CSS externally. 
+Height: to set how tall the image should be, this can also be done using CSS externally. 
+The  width and height attributes,  determine the size of the image. So, every image should have all four of these attributes.
+
+There are four main file formats commonly used on the web these days, each with its own strengths and weaknesses when it comes to compressing images. :
+
+GIF: GIFs are great for compressing illustrations that have large areas of the same color, but it falls short when it comes to photographs. It only supports 256 colors, and images can end up looking pixelated, unless you want that retro vibe. GIFs can have transparent areas, but the edges between transparent and solid parts can be jagged.
+SVG: SVGs are perfect for logos, icons, and other types of illustrations. Unlike GIF, SVG is a vector file that contains instructions for drawing rather than individual pixels. This means it can be scaled to any size without losing quality, and the file size remains small. SVG is actually a programming language for graphics, and there are dedicated courses on it if you wish to learn more. SVG files can be exported from programs like Illustrator or Sketch and handled just like other file formats on the web.
+JPG: JPGs are a popular choice for compressing photographs. Most digital cameras save images in JPG format, but when placed on the web, it is important to resize and compress them appropriately. Avoid using gigantic, half-compressed JPGs on your websites as they will slow the loading speed. JPGs can be compressed further by reducing colour information, finding the right balance between quality and file size. You can do this manually or rely on web services for assistance.
+PNG:  PNG is a newer format that works well when you need transparency in a photograph. It sometimes outperforms both GIF and JPG in compressing certain types of images. When manually compressing files, try different options to find the smallest file size. It is worth mentioning that new image formats will likely emerge in the future, offering even better compression capabilities. Keep an eye out for those. When working with image files, consider the physical size, file format, and compression settings to ensure fast download speeds. Interestingly, the HTML used remains the same regardless of the file format you choose.
+Handling responsiveness of the images: Images must be displayed in different screen size in a good quality or in way that suit the user. Way of ensuring responsiveness of the images.
+
+1.	Providing the browser with different image sizes to let the browser choose the best appropriate image. 
+2.	Ensure you use the best file format for responsiveness! 
+
+
+To start off, use the image element with its ALT text and a URL to the image file. This ensures that even outdated browsers like Internet Explorer 11 can display the image. Now, wrap this image element with the picture element. This acts as a wrapper for the whole setup. Within the picture element, list alternative options using the source element. In this instance, provide two options by creating two source elements.
+
+
 
  
