@@ -93,5 +93,83 @@ Handling responsiveness of the images: Images must be displayed in different scr
 To start off, use the image element with its ALT text and a URL to the image file. This ensures that even outdated browsers like Internet Explorer 11 can display the image. Now, wrap this image element with the picture element. This acts as a wrapper for the whole setup. Within the picture element, list alternative options using the source element. In this instance, provide two options by creating two source elements.
 
 
+Working with forms <form> </form>
+
+Forms are important inputs to the webpage. They make sure that html is accessibly to most devices even those we don’t know off.  
+Basic structure of form is like this. 
+
+<form method=” get/post” action=”./file that will process the input”>
+<label>
+<label>
+<input type=”text”>
+
+
+<form>
+
+It is important to use semantic form elements in HTML instead of divs and spans because it allows us to leverage the built-in power of the browser. This way, we avoid wasting time and effort trying to recreate functionalities that already exist in the browser. Moreover, by using HTML form elements, we ensure that forms will be compatible with all devices and input/output hardware, even those we may not be familiar with. 
+
+
+To create a form, we start with the form element, which informs the browser about the presence of a form using opening and closing tags. In the newsletter signup form, there will be two fields: name and email. These field names can be turned into labels using the label element. 
+Use the input element to provide places for users to input their name and email. Unlike other elements, the input element does not have a closing tag due to its older structure. It acts as a marker for the browser to bring in functionality and place it there. This is where the form's magic happens. 
+Now, a button is needed for users to submit the form. Use the button element for this. The text on the button can be customized to whatever is required. Although the form looks good visually, it currently lacks functionality. To make it work, we need to connect it to a backend. We can add an action and method attribute to make a demo work, although using the "get" method is not secure and is not recommended for real websites.
+Once set up, land on the response page, but the data that was entered does not appear. This is because the input fields need a "name" attribute to report the data. Add "name=name" to the first input element and "name=email" to the second. The name attribute can be customized as desired. After making these changes, the form works successfully, but only if you interact with it using a screen and a mouse. 
+To make it accessible to everyone, we need to address the issue of the label and input elements not being connected. There are two options to achieve this. 
+1.	Add a "for" attribute to the label that matches the "id" attribute of the input. 
+2.	Wrap the input with the label. 
+Both methods work, and it is a matter of choosing the desired markup structure. You can test the connection by clicking on the label and ensuring that the focus jumps to the corresponding input. This is crucial for accessibility, as many people rely on this connection. Clicking on the label is a quick way to verify its functionality.
+
+
+Working with tables:
+Table Structure:
+
+Start with the <table> element and close it at the end.
+Use the <tr> element to define each row.
+Inside each row, use the <td> element for table data cells, and <th> for header cells.
+Table Example:
+
+Header Row: Contains column headers wrapped in <th>. Example headers: Bird, Color, Diet, Photo.
+Data Rows: Each row contains four cells wrapped in <td>. Example cell content: American goldfinch, yellow, eats mostly seeds, and an image.
+HTML Markup Example:
+
+html
+Copy code
+<table>
+  <tr>
+    <th>Bird</th>
+    <th>Color</th>
+    <th>Diet</th>
+    <th>Photo</th>
+  </tr>
+  <tr>
+    <td>American goldfinch</td>
+    <td>Yellow</td>
+    <td>Eats mostly seeds</td>
+    <td><img src="goldfinch.jpg" alt="American goldfinch"></td>
+  </tr>
+  <!-- Additional rows here -->
+</table>
+Styling with CSS:
+
+Header Styling: Apply CSS to change the appearance of header text (e.g., text-transform to capitalize).
+Table Styling: Use CSS to adjust table borders, spacing, and overall appearance to enhance the default browser styling.
+Advanced Features:
+
+Span content across multiple rows or columns.
+Define table sections such as header, body, and footer.
+Add captions to provide additional context.
+Key Elements
+<table>: Container for the entire table.
+<tr>: Table row.
+<th>: Table header cell.
+<td>: Table data cell.
+By understanding these basics, you can start creating well-structured and styled tables for your web projects.
+
+Where can you find the authoritative standard for HTML?
+
+The Living Standard
+
+
+
+
 
  
