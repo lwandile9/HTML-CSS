@@ -1,11 +1,11 @@
-HTML and CSS intro Notes
+#HTML and CSS intro Notes#
 
-Html: 
- it is simple and gives resilience and robustness If something goes wrong it will try and guess and fix it.
+#Html:#
+ *it is simple and gives resilience and robustness If something goes wrong it will try and guess and fix it.*
 •	No programming logic, loops or functions
 •	It is a declarative language. 
 •	
-CSS:   
+#CSS:#   
 it is fragile yet powerful. when the browser encounters a bug, I will skip that part and move on to the rest of the code. Browsers does its best to make it work.
 
 JavaScript: JavaScript is delicate if something goes wrong it like, bug in a code, outdated browser and does not understand the code, it will stop working not even trying to figure out the code or what to do
@@ -16,10 +16,10 @@ To make the web accessible regardless of the computer type and or viewer used, c
 HTML basics- html consists of tree-like elements called Dom and the browser uses this to better understand the structure of the web page.   Example: 
 
  <article >------     parent 
-Nested element 
+#Nested element# 
 <p>This is a paragraph inside an article</p> ……. Child 
   </article>
-Html elements
+#Html elements#
 I – we use italics to emphasize a text or  if we want to distinguish a certain text visually or by browser from other text.
 b- to simple make the text bold (generic element)
 i and b, do not carry any specific meaning and are used solely for visual styling.
@@ -33,7 +33,7 @@ HTML Date and Time Inputs
 HTML has a  <time> element. This element is used to mark anything that specifies a time of day, a date, or a duration.
 Date Time: <time datetime=””2024-08-05” > </time> ---- This makes it easy for the computer  to understand the format of date and the date itself.
 
-HTML <pre> an <br>
+#HTML <pre> an <br>#
 
 <br>- this is a line break in html , when a browsers see this it will go to a new line
 <pre> this is used to tell the browser to preserve formatting
