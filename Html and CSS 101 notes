@@ -1,11 +1,11 @@
-#HTML and CSS intro Notes#
+# HTML and CSS intro Notes
 
-#Html:#
+# Html:
  *it is simple and gives resilience and robustness If something goes wrong it will try and guess and fix it.*
 •	No programming logic, loops or functions
 •	It is a declarative language. 
 •	
-#CSS:#   
+# CSS:   
 it is fragile yet powerful. when the browser encounters a bug, I will skip that part and move on to the rest of the code. Browsers does its best to make it work.
 
 JavaScript: JavaScript is delicate if something goes wrong it like, bug in a code, outdated browser and does not understand the code, it will stop working not even trying to figure out the code or what to do
@@ -13,13 +13,13 @@ JavaScript: JavaScript is delicate if something goes wrong it like, bug in a cod
 To make the web accessible regardless of the computer type and or viewer used, created using  3 languages, CSS , HTML, and JavaScript …. By combining these languages, developers can achieve resilience, robustness, and power of their website.
 
 
-HTML basics- html consists of tree-like elements called Dom and the browser uses this to better understand the structure of the web page.   Example: 
+# HTML basics- html consists of tree-like elements called Dom and the browser uses this to better understand the structure of the web page.   Example: 
 
  <article >------     parent 
-#Nested element# 
+# Nested element# 
 <p>This is a paragraph inside an article</p> ……. Child 
   </article>
-#Html elements#
+# Html elements#
 I – we use italics to emphasize a text or  if we want to distinguish a certain text visually or by browser from other text.
 b- to simple make the text bold (generic element)
 i and b, do not carry any specific meaning and are used solely for visual styling.
@@ -33,14 +33,14 @@ HTML Date and Time Inputs
 HTML has a  <time> element. This element is used to mark anything that specifies a time of day, a date, or a duration.
 Date Time: <time datetime=””2024-08-05” > </time> ---- This makes it easy for the computer  to understand the format of date and the date itself.
 
-#HTML <pre> an <br>#
+# HTML <pre> an <br>#
 
 <br>- this is a line break in html , when a browsers see this it will go to a new line
 <pre> this is used to tell the browser to preserve formatting
 <code> is used to output the code on the browser with out any miss use 
 HTML entity- this a are special chars combination that will represent a  a letter or  symbol that cannot be written normally in html 
 
-Html Subscript, SmallText, Superscript;
+# Html Subscript, SmallText, Superscript;
 
 To represent a formula in html or any advanced formatted text we used text formatting elements like small.
 Super- is used to raise the char up 
@@ -57,9 +57,9 @@ There are numerous attributes like this, which provide browser APIs to JavaScrip
 ARIA Roles:  These are the attributes that help screen reader to better understand the   content of the web page and also help disabled  people to be able to access  the web with ease. ARIA is a powerful tool that greatly enhances web accessibility ARIA Roles provide the necessary tools to make sites accessible to everyone.
 
 
-Formatting HTML: 
+# Formatting HTML: 
 
-HTML Navigation and linking
+# HTML Navigation and linking
 -	Links helps us to navigate the web, internally or externally. 
 -	To create a link you use anchor tags <a></a> and insert attributes such as  href – where the link will if it is clicked and insert the a tags you place a  text that you want the users to see. 
 -	By default, the A element is inline and can be placed within a paragraph or any other text. 
@@ -70,7 +70,7 @@ and relative URL – which is a url that is used to link to internal files withi
 
 
 
-Working with Images
+# Working with Images
 To include the image in your website you use the image tag  <image>  and this tag is a self-closing tag . All images tag require some attributes to work properly                                               
 src: this is the path to the image to be displayed.
 Alt: this is the text that will be displayed if the image is not found. It also help screen reader. If we omit this  attributes  file name will be read aloud.
@@ -78,7 +78,7 @@ Width: to set the widens of the image, this can be done using CSS externally.
 Height: to set how tall the image should be, this can also be done using CSS externally. 
 The  width and height attributes,  determine the size of the image. So, every image should have all four of these attributes.
 
-There are four main file formats commonly used on the web these days, each with its own strengths and weaknesses when it comes to compressing images. :
+# There are four main file formats commonly used on the web these days, each with its own strengths and weaknesses when it comes to compressing images. :
 
 GIF: GIFs are great for compressing illustrations that have large areas of the same color, but it falls short when it comes to photographs. It only supports 256 colors, and images can end up looking pixelated, unless you want that retro vibe. GIFs can have transparent areas, but the edges between transparent and solid parts can be jagged.
 SVG: SVGs are perfect for logos, icons, and other types of illustrations. Unlike GIF, SVG is a vector file that contains instructions for drawing rather than individual pixels. This means it can be scaled to any size without losing quality, and the file size remains small. SVG is actually a programming language for graphics, and there are dedicated courses on it if you wish to learn more. SVG files can be exported from programs like Illustrator or Sketch and handled just like other file formats on the web.
@@ -93,7 +93,7 @@ Handling responsiveness of the images: Images must be displayed in different scr
 To start off, use the image element with its ALT text and a URL to the image file. This ensures that even outdated browsers like Internet Explorer 11 can display the image. Now, wrap this image element with the picture element. This acts as a wrapper for the whole setup. Within the picture element, list alternative options using the source element. In this instance, provide two options by creating two source elements.
 
 
-Working with forms <form> </form>
+# Working with forms <form> </form>
 
 Forms are important inputs to the webpage. They make sure that html is accessibly to most devices even those we don’t know off.  
 Basic structure of form is like this. 
@@ -119,7 +119,7 @@ To make it accessible to everyone, we need to address the issue of the label and
 Both methods work, and it is a matter of choosing the desired markup structure. You can test the connection by clicking on the label and ensuring that the focus jumps to the corresponding input. This is crucial for accessibility, as many people rely on this connection. Clicking on the label is a quick way to verify its functionality.
 
 
-Working with tables:
+# Working with tables:
 Table Structure:
 
 Start with the <table> element and close it at the end.
