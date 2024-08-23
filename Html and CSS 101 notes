@@ -171,5 +171,18 @@ The Living Standard
 
 
 
+CSS
+
+A hex value may contain _____
+
+Answer: Numbers from zero to nine and letters from a-f.
+
+Canva offers a color called "scarlet." However, this CSS doesn't work. Why? h3 { color: scarlet; }
+
+Answer: Only CSS-named colors work directly inside of CSS. Scarlet is not a CSS-named color.
+
+
+
+
 
  
