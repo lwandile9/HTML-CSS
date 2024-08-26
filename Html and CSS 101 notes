@@ -171,7 +171,15 @@ The Living Standard
 
 
 
+
 CSS
+
+what is CSS: cascading style sheet.
+
+css is the  tool used to style our pages.  it's like if we building   a house that we want to sell for profit using blocks only and the house's,
+that house will look ugly and will not attract any  buyers. to make it stand out we would use a paint to style it the way we want to that it looks good.
+
+css is like a paint  and html is like a cement and blocks that you use to build a house.
 
 A hex value may contain _____
 
@@ -180,6 +188,18 @@ Answer: Numbers from zero to nine and letters from a-f.
 Canva offers a color called "scarlet." However, this CSS doesn't work. Why? h3 { color: scarlet; }
 
 Answer: Only CSS-named colors work directly inside of CSS. Scarlet is not a CSS-named color.
+
+
+
+#Understanding the Box Model in CSS
+
+In web development, every HTML element is like a box with different properties. These properties are always present, even if their value is zero and not visible. Let's break down how these properties work. First, we have the content, which is the text inside the box. Then, there is the border, which is like a line surrounding the content. We can choose to display all four sides of the border or just a few. And there are various styles available for the border. 
+
+Next, we have the padding, which is the space between the border and the content. It can also have its own background color. When we add padding, we are essentially pushing the edge of the box away from the content. 
+
+Outside the border, there is the margin, which represents the space between elements on the page. If you want to separate intersecting elements, adding some margin will do the trick. 
+
+We can assign properties to individual sides or apply them to all four sides at once. There are shorthand values available for border, padding, and margin, which provide a more concise way to set these properties. Only a few examples have been provided here, but there is more to explore on this topic.
 
 
 
