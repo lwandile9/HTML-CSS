@@ -13,15 +13,15 @@ JavaScript: JavaScript is delicate if something goes wrong it like, bug in a cod
 To make the web accessible regardless of the computer type and or viewer used, created using  3 languages, CSS , HTML, and JavaScript …. By combining these languages, developers can achieve resilience, robustness, and power of their website.
 
 
-# HTML basics- html consists of tree-like elements called Dom and the browser uses this to better understand the structure of the web page.   Example: 
+# HTML basics- HTML consists of tree-like elements called Dom and the browser uses this to understand the structure of the web page better.   Example: 
 
  <article >------     parent 
 # Nested element# 
 <p>This is a paragraph inside an article</p> ……. Child 
   </article>
 # Html elements#
-I – we use italics to emphasize a text or  if we want to distinguish a certain text visually or by browser from other text.
-b- to simple make the text bold (generic element)
+I – we use italics to emphasize a text or  to distinguish a certain text visually or by browser from other text.
+b- to simply make the text bold (generic element)
 i and b, do not carry any specific meaning and are used solely for visual styling.
 All oThe above elements are all inline elements only taking up the necessary space. 
 em- to emphasize the text.
@@ -35,20 +35,20 @@ Date Time: <time datetime=””2024-08-05” > </time> ---- This makes it easy 
 
 # HTML <pre> an <br>#
 
-<br>- this is a line break in html , when a browsers see this it will go to a new line
-<pre> this is used to tell the browser to preserve formatting
-<code> is used to output the code on the browser with out any miss use 
+<br>- this is a line break in HTML , when a browsers see this it will go to a new line
+<pre> This is used to tell the browser to preserve formatting
+<code> is used to output the code on the browser without any miss use 
 HTML entity- this a are special chars combination that will represent a  a letter or  symbol that cannot be written normally in html 
 
 # Html Subscript, SmallText, Superscript;
 
-To represent a formula in html or any advanced formatted text we used text formatting elements like small.
+We used text formatting elements like small to represent a formula in html or any advanced formatted text.
 Super- is used to raise the char up 
 Sub – is used to lower  the char down
 And small- is use to  make char smaller
 
-HTML Attributes: html are add additional functionalities and improves elements' capabilities 
-Most used attributes are : ID and Classes  and the class is the most commonly used  because it always elements to  have the same class name . but ID are meant to be unique identifier.
+HTML Attributes: HTML add additional functionalities and improves elements' capabilities 
+The most used attributes are: ID and Classes  and the class is the most commonly used  because it always elements to  have the same class name . but ID are meant to be unique identifiers.
 
 HTML offers many attributes that enhance user interaction and provide hooks into browser power. These attributes, such as "content editable," allow interaction with the screen, keyboard, and assistive devices. They facilitate the editing capability within the browser.
 There are numerous attributes like this, which provide browser APIs to JavaScript. To explore more, you can check out other courses. Additionally, the "lang" attribute allows us to specify the language of the content using a short language code. We will delve deeper into supporting languages on the web and finding these codes in chapter seven: Content Identification. The "dir" attribute explicitly indicates the direction in which the text flows, using "LTR" for left-to-right scripts and "RTL" for right-to-left scripts. These attributes, "lang" and "dir," are considered Global Attributes and can be used on any HTML element.
